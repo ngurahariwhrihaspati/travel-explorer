@@ -1,0 +1,209 @@
+:root {
+  /* ===== Layout ===== */
+  --container-width: 1200px;
+  --container-padding: 1.5rem;
+  --gap: 1.5rem;
+
+  /* ===== Brand Colors ===== */
+  --color-primary: #fafafa;
+  --color-secondary: #f5f5f5;
+  --text-primary: #08060d;
+  --text-secondary: #0d0d0d;
+  --text-muted: #9ca3af;
+
+  /* ===== Neutral Colors ===== */
+  --color-text: #0a0a0a;
+  --color-heading: #070707;
+  --color-background: #fffff0;
+  --color-border: #e5e4e7;
+  --color-muted: #6b7280;
+
+  /* ===== Accent System ===== */
+  --color-accent: #aa3bff;
+  --color-accent-bg: rgba(170, 59, 255, 0.1);
+  --color-accent-border: rgba(170, 59, 255, 0.5);
+
+  /* ===== Surface Colors ===== */
+  --color-code-bg: #f4f3ec;
+  --color-social-bg: rgba(244, 243, 236, 0.5);
+
+  /* ===== Typography ===== */
+  --font-sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+
+  --nav-height: 60px;
+
+  --fs-xs: 0.875rem;
+  --fs-sm: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2rem;
+  --fs-hero: clamp(2.5rem, 5vw, 4rem);
+
+  /* ===== Spacing ===== */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  --border: #e5e7eb;
+  --border-card: #e5e7eb82;
+
+  /* ===== Radius ===== */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* ===== Effects ===== */
+  --transition: 0.3s ease;
+
+  --shadow-sm: rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --shadow-md:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #0a0a0a;
+    --color-heading: #070707;
+    --color-background: #fffff0;
+    --color-border: #e5e4e7;
+
+    --color-code-bg: #f4f3ec;
+    --color-social-bg: rgba(244, 243, 236, 0.5);
+
+    --color-accent: #c084fc;
+    --color-accent-bg: rgba(192, 132, 252, 0.15);
+    --color-accent-border: rgba(192, 132, 252, 0.5);
+
+    --shadow-md:
+      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  }
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-background);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  margin-top: var(--space-sm);
+}
+
+a {
+  color: rgb(133, 122, 122);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#root {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.1;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 35px;
+    margin: 20px 0;
+  }
+}
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+p {
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
+
+/* Mobile first */
+
+/* Tablets */
+@media (min-width: 768px) {
+}
+
+/* Small laptops */
+@media (min-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+}
+
+/* Large desktop */
+@media (min-width: 1536px) {
+}
