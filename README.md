@@ -13,4 +13,19 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/crea[...]
+
+## Wireframe image
+
+Below is the project wireframe screenshot stored in the repository. Use the relative path so the image works on branches and when cloned locally.
+
+Markdown (relative path):
+
+![Website Wireframe Design](./src/assets/images/Website%20WireFrame%20Design.jpg)
+
+HTML (if you want to control display size):
+
+<img src="./src/assets/images/Website%20WireFrame%20Design.jpg" alt="Website WireFrame Design" width="800" />
+
+Notes:
+- The filename contains spaces; the Markdown and HTML examples above URL-encode spaces as `%20` for robustness, but many Markdown renderers also accept literal spaces. If you run into issues, rename the file to remove spaces (e.g. `website-wireframe-design.jpg`).
