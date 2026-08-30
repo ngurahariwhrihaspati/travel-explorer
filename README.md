@@ -1,6 +1,6 @@
 # Travel Explorer 🧳✈️
 
-A modern, responsive travel guide web application built with **React** and **Vite**. Inspired by "Globe Trekker - Travel Guide Website Design" by [Tisha Saha](https://id.pinterest.com/tisha_saha/), this project demonstrates a professional single-page application (SPA) template for travel service providers.
+A modern, responsive travel guide web application built with **React** and **Vite**. Inspired by "Globe Trekker - Travel Guide Website Design" by [Tisha Saha](https://id.pinterest.com/tisha_saha/), this project delivers a polished, production-ready template for travel-related web applications.
 
 ## 📋 Table of Contents
 
@@ -32,7 +32,7 @@ A modern, responsive travel guide web application built with **React** and **Vit
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) - Uses [Oxc](https://oxc.rs)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react) - Uses [SWC](https://swc.rs/)
 
-> **Note**: The React Compiler is not enabled by default to avoid performance impacts during development and builds. See [React Compiler Documentation](https://react.dev/learn/react-compiler/installation) to enable it.
+> **Note**: The React Compiler is not enabled by default to avoid performance impacts during development and builds. See [React Compiler Documentation](https://react.dev/learn/react-compiler/installation) for details.
 
 ## 📂 Project Structure
 
@@ -93,7 +93,7 @@ Below is the project wireframe screenshot stored in the repository:
 
 ### Display Wireframe
 
-![Website Wireframe Design](./src/assets/images/Website-WireFrame-Design.jpg)
+![Website Wireframe Design](/src/assets/images/Website-WireFrame-Design.jpg)
 
 ### HTML Version (with custom sizing)
 
