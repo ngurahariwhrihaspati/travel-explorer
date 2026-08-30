@@ -93,7 +93,7 @@ Below is the project wireframe screenshot stored in the repository:
 
 ### Display Wireframe
 
-![Website Wireframe Design](./src/assets/images/Website%20WireFrame%20Design.jpg)
+![Website Wireframe Design](./src/assets/images/Website-WireFrame-Design.jpg)
 
 ### HTML Version (with custom sizing)
 
@@ -104,8 +104,6 @@ Below is the project wireframe screenshot stored in the repository:
   width="800" 
 />
 ```
-
-**Note**: The image path uses URL-encoded spaces (`%20`). If you encounter issues, consider renaming the file to remove spaces (e.g., `website-wireframe-design.jpg`).
 
 ## 🔮 Future Development
 
