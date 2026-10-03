@@ -1,16 +1,116 @@
-# React + Vite
+# Travel Explorer 🧳✈️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive travel guide web application built with **React** and **Vite**. Inspired by "Globe Trekker - Travel Guide Website Design" by [Tisha Saha](https://id.pinterest.com/tisha_saha/), this project delivers a polished, production-ready template for travel-related businesses.
 
-Currently, two official plugins are available:
+## 📋 Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [About This Project](#about-this-project)
+- [Future Development](#future-development)
+- [Wireframe](#wireframe)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design**: Mobile-first approach with custom CSS styling
+- **Modern SPA Architecture**: Built with React for a smooth user experience
+- **Fast Development**: Vite for lightning-quick HMR (Hot Module Replacement)
+- **Production-Ready Template**: Ready-to-use structure minimizing setup time
+- **ESLint Configuration**: Includes linting rules for code quality
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework**: [React](https://react.dev)
+- **Build Tool**: [Vite](https://vitejs.dev)
+- **Styling**: Custom CSS
+- **Linting**: ESLint
+
+### Vite Plugins
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) - Uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react) - Uses [SWC](https://swc.rs/)
+
+## 📂 Project Structure
+
+The project follows a standard React + Vite structure with all necessary assets and components organized for scalability.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ngurahariwhrihaspati/travel-explorer.git
+
+# Navigate to the project directory
+cd travel-explorer
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+The application will be available at `http://localhost:5173`
+
+## 📖 About This Project
+
+### What
+A travel guide SPA template featuring modern design, responsive layouts, and a professional user interface ready for travel service providers, travel agents, transportation services, and hotel accommodation platforms.
+
+### Why
+Built as a template to accelerate development time and provide a production-ready foundation for travel-related web applications.
+
+### When
+Completed in 2 months to match the exact appearance and functionality of the design reference with custom CSS styling.
+
+### Where
+Developed using personal devices with assistance from Claude AI for the initial structure, followed by custom refinement and polishing.
+
+### Who It's For
+- Travel providers and agencies
+- Transportation services
+- Hotel and accommodation booking platforms
+- Tourism websites
+- Travel planning applications
+
+## 🎨 Wireframe
+
+Below is the project wireframe screenshot stored in the repository:
+
+### Display Wireframe
+
+![Website Wireframe Design](src/assets/images/Website-Wireframe-Design.jpg)
+
+## 🔮 Future Development
+
+- **Database Integration**: Connect to a backend API for dynamic data
+- **Authentication**: User login and profile management
+- **Booking System**: Real-time booking and reservation features
+- **Payment Integration**: Secure payment gateway integration
+- **Advanced Filtering**: Search and filter options for destinations and services
+- **User Reviews & Ratings**: Community feedback system
+- **Mobile App**: Native mobile application companion
+
+## 📝 ESLint Configuration
+
+For production applications, TypeScript with type-aware lint rules is recommended. Check out the [Vite TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite) for more details.
+
+## 📄 License
+
+Feel free to use this template for your own travel projects.
+
+---
+
+**Questions or Suggestions?** Feel free to open an issue or submit a pull request!
