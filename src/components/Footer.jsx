@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <div className="footer-grid">
         <div className="footer-brand">
-          <p className="footer-brand-name">Wanderlust</p>
+          <p className="footer-brand-name">travel-explorer</p>
           <p className="quote">
             Inspiring adventures and helping travellers discover the world's
             most remarkable places.
@@ -120,7 +120,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p className="quote">
-          Copyright © {new Date().getFullYear()} Wanderlust. All rights
+          Copyright © {new Date().getFullYear()} travel-explorer. All rights
           reserved.
         </p>
         <p className="quote">

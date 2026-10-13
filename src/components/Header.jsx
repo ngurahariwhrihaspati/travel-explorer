@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <div>
       <nav className="nav">
-        <span className="nav-logo">Wanderlust</span>
+        <span className="nav-logo">travel-explorer</span>
         <ul className="nav-links">
           <li>
             <a href="#">Destinations</a>
